@@ -5,7 +5,7 @@ SERVER_NAME = '192.168.2.46'
 SERVER_PORT = 12000
 
 # Create UDP socket
-#   AF_INET means that this is gonna be an internet-type socket
+#   AF_INET means that this is gonna be an internet-type IPv4 socket
 #   SOCK_DGRAM says that this is 'UDP' datagram socket, rather than 'TCP'
 client_socket = socket(AF_INET, SOCK_DGRAM)
 
